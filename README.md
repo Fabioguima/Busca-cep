@@ -86,7 +86,7 @@ O projeto se adapta automaticamente a diferentes tamanhos de tela:
 
 **Fabio Guimarães**  
 📚 Projeto acadêmico — *Busca CEP*  
-💼 GitHub: [https://github.com/fabioguima](https://github.com/fabioguima)
+🌐 Site Busca CEP: [https://fabioguima.github.io/Busca-cep/](https://fabioguima.github.io/Busca-cep/)
 
 ---
 
