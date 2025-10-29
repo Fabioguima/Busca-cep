@@ -1,0 +1,71 @@
+body {
+    display: flex;                /* ATIVA O FLEX BOX */
+    justify-content: center;      /* CENTRALIZA HORIZONTALMENTE */
+    align-items: center;          /* CENTRALIZA VERTICALMENTE */
+    height: 100vh;                /* 100% DA ALTURA DA TELA */
+    margin: 0;                    /* REMOVE AS MARGENS PADRÃO */
+    background-image: url('https://img.freepik.com/fotos-gratis/carros-turva-e-skyline-da-cidade_23-2148242183.jpg');
+    background-size: cover; /* FAZ A IMAGEM OCUPAR TODA TELA SEM DISTORCER*/
+    background-position: center; /* CENTRALIZA A IMAGEM */
+}
+
+
+#buscar {
+    background-color: rgb(40, 108, 233);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: 0.3s;
+    margin-left: 10px;
+}
+
+#buscar:hover {
+    background-color: #0056b3;
+}
+
+#busca {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#cep {
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+#lista {
+    list-style-type: none; /* REMOVE OS MARCADORES */
+    text-align: left;
+    color: rgb(14, 16, 16);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    margin: 5px;
+}
+
+/* AJUSTE EM TELAS MENORES */
+@media (max-width: 768px) {
+    body {
+        background-position: top center; /* CENTRALIZA NA PARTE SUPERIOR */
+        background-size: cover;          /* CONTINUA PREENCHENDO A TELA*/
+    }
+    #buscar {
+        margin-top: 10px;
+    }
+}
+
+/* PARA CELULARES */
+@media (max-width: 480px) {
+    body {
+        background-position: top center;
+        background-size: cover;
+    }
+    #buscar {
+        margin-top: 10px;
+    }
+}
