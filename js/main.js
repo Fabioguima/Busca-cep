@@ -9,6 +9,7 @@ async function mostrarCEP() {
     const lista = document.getElementById('lista');
     const cepDigitado = document.getElementById('cep').value;
 
+    lista.style.display = 'block';
     lista.innerHTML = '<li>Carregando...</li>';
 
     try {
